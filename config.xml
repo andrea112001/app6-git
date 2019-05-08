@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<widget xmlns ="http://w3.org/ns/widgets"
+<widget xmlns ="http://www.w3.org/ns/widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
 id = "com.phonegap.app6"
-version ="1.0,0">
+version ="1.0.0">
 
 <name> app6 Deslizar hacia la izquierda y a la derecha </name>
 
@@ -17,10 +17,10 @@ Andrea Tepoz Ximil
 
 <!--Personaliza la aplicacion y plataforma -->
 <preference name="orientation" value="default"/>
-<!--preference name="orientation" value="portrait" />-->
+<!--preference name="orientation" value="portrait" />
 <preference name="orientation" value="landscape" />-->
-<preference name="target-device" value="default"/>
 <preference name="fullscreen" value="universal" />
+<preference name="fullcreen" value="true"/>
 <preference name="android-installLocation" value="auto"/>
 <preference name="permissions" value="INTERNET"/>
 
